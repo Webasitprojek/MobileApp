@@ -15,9 +15,9 @@ import Fragment.ProdukFragment;
 public class MainActivity extends AppCompatActivity implements NavigationRailView.OnItemSelectedListener {
     private BottomNavigationView bottomNavigationView;
     private HomeFragment homeFragment = new HomeFragment();
-//    private SettingFragment settingFragment = new SettingFragment();
+    //    private SettingFragment settingFragment = new SettingFragment();
     private ProdukFragment produkFragment = new ProdukFragment();
-//    private KeranjangFragment keranjangFragment = new KeranjangFragment();
+    //    private KeranjangFragment keranjangFragment = new KeranjangFragment();
 //    private TransaksiFragment transaksiFragment = new TransaksiFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements NavigationRailVie
 
         bottomNavigationView.setOnItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.home);
-
+        a
 
     }
     @Override
