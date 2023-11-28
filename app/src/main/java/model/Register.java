@@ -2,6 +2,7 @@ package model;
 
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
+import com.millenialzdev.CedasAPK.User;
 
 public class Register{
 

@@ -1,11 +1,8 @@
-package retrofit;
-
-import com.millenialzdev.CedasAPK.User;
+package com.millenialzdev.CedasAPK;
 
 import java.util.List;
 
 public class UserResponse {
-
     private int code;
     private String status;
     private List<User> user_list;

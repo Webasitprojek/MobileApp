@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="nama"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="email"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/pass"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="123"-->
+<!--        android:textStyle="bold"/>-->
+
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="no hp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="alamat"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/jk"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="jk"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/tglahir"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:hint="tgl lahir"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Edit"
+        android:id="@+id/btn_edit"/>
+
+    <Button
+        android:id="@+id/btn_hapus"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Delete" />
+
+</LinearLayout>

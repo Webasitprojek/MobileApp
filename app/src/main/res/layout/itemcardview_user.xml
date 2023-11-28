@@ -1,0 +1,93 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/grey_background"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- ImageView hampir memenuhi konten -->
+        <ImageView
+            android:id="@+id/iv_item_foto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:background="@color/merah"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <!-- TextView -->
+<!--        <TextView-->
+<!--            android:id="@+id/txusername"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:text="Rukun Sholat"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <!-- TextView -->
+<!--        <TextView-->
+<!--            android:id="@+id/txemail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:ellipsize="end"-->
+<!--            android:maxLines="5"-->
+<!--            android:text="Rukun Sholat"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="italic" />-->
+        <LinearLayout
+            android:background="@color/merah"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="12dp"
+                android:textStyle="bold"
+                android:id="@+id/txusername"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basreng Pedas" />
+            <TextView
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/txemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 15.000,00" />
+        </LinearLayout>
+
+        <!-- Button -->
+<!--        <Button-->
+<!--            android:id="@+id/btnBaca"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Baca selengkapnya"-->
+<!--            app:backgroundTint="#ED8D8D" />-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
