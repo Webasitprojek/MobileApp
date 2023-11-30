@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/merah"
@@ -15,7 +16,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/basreng1" />
 
-    <TextView
+    <EditText
+        android:id="@+id/Idkeranjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/Namakeranjang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/Namakeranjang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +42,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/Hargakeranjang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,7 +67,7 @@
         app:layout_constraintStart_toStartOf="@+id/Hargakeranjang"
         app:srcCompat="@drawable/minus" />
 
-    <TextView
+    <EditText
         android:id="@+id/numberItemsTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
